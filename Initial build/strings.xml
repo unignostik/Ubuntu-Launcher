@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ConsoleLauncher</string>
+    <string name="launcherDeviceName">device@android: ~$</string>
+</resources>

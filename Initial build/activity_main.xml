@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainBG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryBG"
+    tools:context="com.legacy.ct.consolelauncher.MainActivity">
+
+    <TextView
+        android:id="@+id/shellText"
+        android:layout_width="168dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/launcherDeviceName"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/enteredText"
+        android:layout_width="229dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:inputType="textNoSuggestions"
+        android:textColor="@android:color/background_light"
+        android:textCursorDrawable="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
